@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xyz"
+    tools:context=".MainActivity"
+
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar1"
+        android:background="@drawable/xyz"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="  My Zodiac App"
+        app:titleMargin="15dp"
+        app:logo="@drawable/menu"
+        />
+
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="613dp"
+        android:layout_below="@+id/toolbar1"
+        android:layout_marginTop="34dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="ENTER YOUR NAME:"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/ed1"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xyz"
+            android:text="SELECT UR DATE OF BIRTH:" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

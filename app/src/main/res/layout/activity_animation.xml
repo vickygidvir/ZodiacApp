@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:background="@drawable/abc"
+    android:layout_height="match_parent"
+
+    tools:context=".Animationdemo">
+
+    <Button
+        android:id="@+id/android1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/abc"
+        android:text="DEVEOPLED BY Alka,Pradnya,Vicky." />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="390dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:layout_height="301dp"
+        android:layout_above="@id/android1"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="41dp"
+        app:srcCompat="@mipmap/android" />
+
+</RelativeLayout>
